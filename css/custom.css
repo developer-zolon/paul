@@ -1,0 +1,402 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+/*basic css start*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul ol {
+    list-style: none;
+}
+
+img {
+    cursor: pointer;
+}
+
+/*basic css end*/
+/*top to bottom img design start*/
+#scrollUp {
+    text-indent: -999999px;
+    bottom: 10px;
+    right: 20px;
+    padding: 10px 20px;
+    background: url(../img/Back_to_Top_Button.png);
+    background-size: 100% auto;
+    width: 50px;
+    height: 50px;
+    height: 50px;
+    position: fixed;
+}
+
+/*top to bottom design end*/
+/*header area start*/
+#header-area {
+    background-image: url("../img/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    height: 100vh;
+}
+
+#header-area .navbar .navbar-toggler-icon {
+    background: none;
+    border: 2px solid #fff;
+}
+
+#header-area .navbar-toggler,
+.navbar-toggler i {
+    border: none;
+    font-size: 35px;
+    color: #fff;
+    padding-top: 7px;
+}
+
+#header-area .navbar .navbar-collapse ul li a {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#header-area .navbar .navbar-collapse ul li a:after {
+    position: absolute;
+    content: '';
+    width: 10;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 0;
+}
+
+#header-area .navbar .navbar-collapse ul li a:hover:after {
+    opacity: 1;
+}
+
+#header-area .header-content .header-custom-btn {
+    background: none;
+    border: none;
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 12%;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#header-area .header-content p {
+    color: #fff;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+/*header area end*/
+/*about area start*/
+#about-area {
+    padding: 60px 0;
+}
+
+#about-area .about-img {}
+
+#about-area .about-img img {
+    width: 300px;
+    height: auto;
+}
+
+#about-area .about-text {
+    padding: 40px 20px;
+}
+
+#about-area .about-text h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+#about-area .about-text p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+#about-area .about-text .about-btn-custom {
+    padding: 8px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/*about area end*/
+/*Working area start*/
+#working-area {
+    padding: 90px 0;
+    background-color: #d8d3d3;
+}
+
+#working-area .working-title h2,
+#latest-works-area .latest-work-title h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+#working-area .working-title p {
+    font-size: 16px;
+    padding-bottom: 5%;
+}
+
+#working-area .work-common {
+    padding: 45px;
+    color: #fff;
+}
+
+#working-area .work-common .icon i {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+#working-area .work-common p {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#working-area .work1 {
+    background: #10c6fc;
+}
+
+#working-area .work2 {
+    background: #4F368D;
+}
+
+#working-area .work3 {
+    background: #001632;
+}
+
+#working-area .work4 {
+    background: #f80f32;
+}
+
+#working-area .work4 .icon i {
+    transform: rotate(320deg)
+}
+
+/*Working area end*/
+/*work & education area start*/
+#work-education-area {
+    background-color: #386879;
+    padding: 90px 0;
+}
+
+#work-education-area .woek-experience {
+    background-color: #53647D;
+    color: #fff;
+    padding: 20px;
+}
+
+#work-education-area .woek-experience h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+#work-education-area .woek-experience h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+#work-education-area .woek-experience p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+#work-education-area .woek-experience hr {
+    border: none;
+    border-bottom: 1px solid;
+    margin: 5px 0 25px;
+}
+
+/*work & education area end*/
+/*latest-works-area start*/
+#latest-works-area {
+    padding: 80px 0;
+}
+
+#latest-works-area .first-part {}
+
+#latest-works-area .second-part {}
+
+#latest-works-area img {
+    margin: 15px 0px;
+}
+
+/*latest-works-area end*/
+/*testimonial area star*/
+#testimonial-area {
+    padding: 90px 0;
+    background: #28e2cd;
+}
+
+#testimonial-area .slider-text h2 i {
+    font-size: 50px;
+    color: #1f5d56;
+}
+
+#testimonial-area .slider-text p {
+    font-size: 18px;
+    padding: 50px 0 70px;
+    text-align: justify;
+}
+
+#testimonial-area .sign img {
+    padding-bottom: 15px;
+}
+
+#testimonial-area .sign h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#testimonial-area .slider-img img {
+    width: 100%;
+    height: auto;
+}
+
+/*testimonial area end*/
+/*Contact area start*/
+#contact-area {
+    padding: 90px 0;
+    background-color: #566977;
+    color: #ffffff;
+}
+
+/*form part design start*/
+#contact-area .left-side {
+    background: radial-gradient(#5ba0c1, #528da0, #427389, #5d6977, #59575d);
+    border-radius: 30px;
+}
+
+#contact-area .contact-form h2 {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+
+#contact-area .contact-form {
+    padding: 0 30px;
+}
+
+#contact-area .contact-form .form-group .custom-input {
+    background: transparent;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+#contact-area .contact-form .form-group .text {
+    background: transparent;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+#contact-area .contact-form .form-group Input::placeholder {
+    color: #ffffff;
+}
+
+#contact-area .contact-form .form-group textarea::placeholder {
+    color: #ffffff;
+}
+
+#contact-area .contact-form .contact-btn-custom {
+    float: right;
+    background: #ff2b4a;
+    padding: 12px 35px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact-area .contact-form .contact-btn-custom:hover {
+    background: #ffffff;
+    color: #ff2b4a;
+}
+
+#contact-area .right-side {
+    padding: 0 30px;
+}
+
+#contact-area .right-side .address-area,
+.phone-area,
+.web-area {
+    background: radial-gradient(#5ba0c1, #528da0, #427389, #5d6977, #59575d);
+    border-radius: 30px;
+    padding: 20px 20px;
+    margin-bottom: 15px;
+}
+
+#contact-area .right-side .address-area h2,
+.phone-area h2,
+.web-area h2 {
+    font-size: 26px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+#contact-area .right-side p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/*Contact area end*/
+/* footer-area start*/
+#footer-area {
+    padding: 50px 0px;
+    background: #0d0d0d;
+    color: #fff;
+}
+
+#footer-area ul li {
+    font-size: 22px;
+}
+
+#footer-area ul li a i {
+    color: #fff;
+}
+
+#footer-area ul li a i:hover {
+    color: #ff2b4a;
+}
+
+#footer-area p {
+    font-size: 16px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+/* footer-area end*/

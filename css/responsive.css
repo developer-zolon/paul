@@ -1,0 +1,91 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 374px) and (max-width: 575.98px) {
+    #header-area .header-content .header-custom-btn {
+    background: none;
+    border: none;
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 12%;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+    #header-area .header-content p {
+    font-size: 17px;
+}
+    #about-area .about-text h2 {
+    font-size: 16px; 
+}
+    #about-area .about-text p {
+    font-size: 12px;
+}
+    #working-area .working-title p {
+    font-size: 14px;
+}
+    #working-area .working-title p {
+    font-size: 14px;
+}
+    #testimonial-area .slider-text h2 i {
+    font-size: 40px;
+}
+    #testimonial-area .slider-text p {
+    font-size: 12px;
+    padding: 20px 0 0px;
+}
+ #working-area .work3 {
+    margin-top: 30px;
+}
+    #working-area .work4 {
+    margin-top: 30px;
+}
+ #work-education-area .woek-experience {
+    margin-top: 40px;
+}   
+#contact-area .right-side .address-area, .phone-area, .web-area {
+   
+    margin-top: 40px;
+}
+}
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+   #working-area .work3 {
+    margin-top: 30px;
+}
+    #working-area .work4 {
+    margin-top: 30px;
+}
+ #work-education-area .woek-experience {
+    margin-top: 40px;
+}   
+#contact-area .right-side .address-area, .phone-area, .web-area {
+   
+    margin-top: 40px;
+}
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+#about-area .about-text h2 {
+    font-size: 18px;
+} 
+    
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+ 
+}
